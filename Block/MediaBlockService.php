@@ -81,6 +81,14 @@ class MediaBlockService extends BaseBlockService
     /**
      * {@inheritdoc}
      */
+    public function validateBlock(ErrorElement $errorElement, BlockInterface $block)
+    {
+
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     public function setDefaultSettings(OptionsResolverInterface $resolver)
     {
         $resolver->setDefaults(array(
